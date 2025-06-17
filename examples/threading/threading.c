@@ -11,7 +11,7 @@
 /**
  * Funzione eseguita dal thread creato.
  * Attende `wait_to_obtain_ms`, acquisisce il mutex,
- * attende `wait_to_release_ms`, poi lo rilascia.
+ * attende `wait_to_release_ms`, poi lo rilascia!
  */
 void* threadfunc(void* thread_param)
 {
